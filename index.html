@@ -22,42 +22,41 @@
     <meta name="theme-color" content="#2c712c">
     <link href="./static/css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#spyScrollId" tabindex="0" >
     
-<header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark p-0">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0 container justify-content-between">
-          <li class="nav-item m-0 p-0">
-            <a class="nav-link active" aria-current="page" href="#">Начало</a>
-          </li>
-          <li class="nav-item m-0 p-0">
-            <a class="nav-link" href="#resume">Резюме</a>
-          </li>
-          <li class="nav-item m-0 p-0">
-            <a class="nav-link" href="#about">Обо мне</a>
-          </li>
-          <li class="nav-item m-0 p-0">
-            <a class="nav-link" href="#contacts" >Контакты</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
+    <header>
+      <nav id="spyScrollId" class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark p-0">
+          <div class="col-lg-4"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="col-lg-4 collapse navbar-collapse" id="navbarCollapse">
+            <ul class="nav navbar-nav me-auto mb-2 mb-md-0 container justify-content-between">
+              <li class="nav-item m-0 p-0">
+                <a class="nav-link active" href="#home">Начало</a>
+              </li>
+              <li class="nav-item m-0 p-0">
+                <a class="nav-link" href="#resume">Резюме</a>
+              </li>
+              <li class="nav-item m-0 p-0">
+                <a class="nav-link" href="#about">Обо мне</a>
+              </li>
+              <li class="nav-item m-0 p-0">
+                <a class="nav-link" href="#contacts" >Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4"></div>
+      </nav>
+    </header>
 
-<main class="w-100 h-100">
-    <section id="cover_main" class="d-flex vh-100 text-bg-dark">
+<main class="w-100 h-100" >
+    <section id="home" class="d-flex vh-100 text-bg-dark">
         <!-- ------------------------------ cover ----------------------------------->
-          <div class="mx-auto text-center align-self-center"> 
+          <div class="mx-auto text-center align-self-center text-blue-shadow"> 
             <main class="">
               <h1>Алексей Н.</h1>
               <p class="lead">Fullstack python developer</p>
-              <p class="lead">Инженер программист</p>
             </main>
           </div>
         <!-- ------------------------------ cover ----------------------------------->
@@ -66,10 +65,7 @@
   ================================================== -->
   <div class="container">
   <!-- START THE resume -->
-
-  <hr class="resume-divider" id="resume">
-
-  <div class="row resume">
+  <div class="row resume"  id="resume">
     <div class="col-md-7">
       <h2 class="resume-heading fw-normal lh-1">First resume heading. <span class="text-muted">It’ll blow your mind.</span></h2>
       <p class="lead">Some great placeholder content for the first resume here. Imagine some exciting prose here.</p>
@@ -92,25 +88,9 @@
 
     </div>
   </div>
-
-  <hr class="about-divider" id="about">
-
-  <div class="row about">
-    <div class="col-md-7">
-      <h2 class="about-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-      <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
-    </div>
-    <div class="col-md-5">
-      <svg class="bd-placeholder-img bd-placeholder-img-lg about-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
-    </div>
-  </div>
-
-  <hr class="resume-divider" id="skills">
-
-  <!-- /END THE resumeS -->
+ <!-- /END THE resumeS -->
   <!-- START THE skills -->
-    <div class="row text-center" >
+    <div class="row text-center" id="skills">
       <h2 class="mb-5">Навыки</h2>
       <div class="col">
         <svg class="bd-placeholder-img rounded" width="100" height="100" fill="#3776AB" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Python</title><path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z"/></svg>
@@ -187,12 +167,22 @@
       
     </div><!-- /.row -->
   <!-- /END THE skills -->
+  <hr class="about-divider">
 
+  <div class="row about" id="about">
+    <div class="col-md-7">
+      <h2 class="about-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+      <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+    </div>
+    <div class="col-md-5">
+      <svg class="bd-placeholder-img bd-placeholder-img-lg about-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
 
+    </div>
+  </div>
 
     <!-- START THE CONTACT -->
-    <hr class="contact-divider" id="contacts">
-    <div class="row contact">
+    <hr class="contact-divider">
+    <div class="row contact" id="contacts">
       <div class="col-md-7">
         <h2 class="contact-heading fw-normal lh-1">Контактные данные</h2>
         <p class="lead"><svg class="bd-placeholder-img rounded " width="32" height="32" fill="#26A5E4" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"><<title>Telegram</title><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg><a class="ml-2" href="https://t.me/ap1726" title="Telegram">@ap1726</a></p>
@@ -200,7 +190,7 @@
         <p class="lead"><svg class="bd-placeholder-img rounded " width="32" height="32" fill="#181717" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg><a class="ml-2" href="https://github.com/ap1726" title="gmail">github.com/ap1726</a></p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg contact-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg contact-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
       </div>
     </div>
     <hr class="contact-divider">
@@ -211,13 +201,26 @@
   <!-- FOOTER -->
   <footer class="container">
     <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2023 Alexei N. | <a href="https://github.com/ap1726">GitHub</a> | <a href="https://getbootstrap.com/">Bootstrap</a></p>
+    <p>&copy; 2023 Alexei N. | <a href="https://simpleicons.org/">Simple Icons</a> | <a href="https://getbootstrap.com/">Bootstrap</a></p>
   </footer>
 </main>
 
-
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script>
+const firstScrollSpyEl = document.querySelector('[data-bs-spy="scroll"]')
+firstScrollSpyEl.addEventListener('activate.bs.scrollspy', (event) => {
+  let hashNew = event.relatedTarget.getAttribute("href");
+    if(history.replaceState) {
+      history.replaceState(null, null, hashNew);
+    }
+    else {
+        location.hash = hashNew;
+    }
 
+})
+
+</script>
       
   </body>
 </html>

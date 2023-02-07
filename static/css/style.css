@@ -9,6 +9,15 @@
   user-select: none;
 }
 
+.text-blue-shadow, .text-blue-shadow h1 {
+  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+  color: white;
+  font-size: 2em;
+}
+.text-blue-shadow p {
+  font-size: 1em;
+}
+
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
@@ -51,13 +60,13 @@ body {
   }
 }
 
-#cover_main {
+#home {
   background: url(../images/cover_main.jpg) 100% 100% no-repeat; /* Добавляем фон */
   background-color: #000000;
   background-size: cover; /* Масштабируем фон */
 }
 
-#cover_main:before {
+#home:before {
 	content: '';
 	display: block;
 	width: 100%;
