@@ -24,12 +24,19 @@
   }
 }
 
+.my-bg-vscode {
+  background-color: #262922;
+}
+.my-bg-gimp {
+  background-color: #454545;
+}
+.my-bg-body {
+  background-color: #f1eee8;
+}
 
 /* Padding below the footer and lighter body text */
 body {
-  padding-bottom: 5rem;
   color: #5a5a5a;
-  background-color: #f1eee8;
 }
 
 /* Featurettes
@@ -77,4 +84,16 @@ body {
 	right: 0;
 	bottom: 0;
 	background-color:rgba(0, 0, 0, .2);
+}
+
+#contacts {
+/*  background-color: #74cfd2;*/
+}
+
+.aquarium {
+  min-height: 500px;
+  min-width: 500px;
+  background-color: #ccc;
+  margin: 0;
+  padding: 0;
 }
