@@ -63,7 +63,7 @@ body {
 
 @media (min-width: 62em) {
   .contact-heading, .resume-heading, .about-heading {
-    margin-top: 7rem;
+    margin-top: 1rem;
   }
 }
 
@@ -96,4 +96,17 @@ body {
   background-color: #ccc;
   margin: 0;
   padding: 0;
+}
+
+#resume {
+
+}
+
+#resume img {
+  width: 500px;
+}
+
+#carousel_portfolio {
+  width: 500px;
+  height: 500px;
 }
