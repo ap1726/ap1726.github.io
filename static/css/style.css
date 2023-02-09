@@ -1,14 +1,3 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-}
-
 .text-blue-shadow, .text-blue-shadow h1 {
   text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
   color: white;
@@ -16,12 +5,6 @@
 }
 .text-blue-shadow p {
   font-size: 1em;
-}
-
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
 }
 
 .my-bg-vscode {
@@ -34,23 +17,63 @@
   background-color: #f1eee8;
 }
 
-/* Padding below the footer and lighter body text */
 body {
   color: #5a5a5a;
 }
-
-/* Featurettes
-------------------------- */
 
 .contact-divider, .resume-divider, .about-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
 
-/* Thin out the marketing headings */
-/* rtl:begin:remove */
 .contact-heading, .resume-heading, .about-heading {
   letter-spacing: -.05rem;
 }
+
+#home {
+  background: url(../images/cover_main.jpg) 100% 100% no-repeat;
+  background-color: #000000;
+  background-size: cover;
+}
+
+#home:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:rgba(0, 0, 0, .2);
+}
+
+#home:after {
+  content: '';
+  display: inline-block;
+  border-left: 4px solid #ccc;
+  border-bottom: 4px solid #ccc;
+  height: 30px;
+  width: 30px;
+  font-size: 2rem;
+  position: absolute;
+  margin-left: 50%;
+  bottom: 40px;
+  left:-15px;
+  rotate: -45deg;
+  animation: move  2s infinite ease-in-out;
+}
+
+@keyframes move {
+from, 
+to {
+bottom: 40px;
+}
+25%, 
+75% {bottom: 10px;}
+50% {bottom: 40px;}
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -67,46 +90,5 @@ body {
   }
 }
 
-#home {
-  background: url(../images/cover_main.jpg) 100% 100% no-repeat; /* Добавляем фон */
-  background-color: #000000;
-  background-size: cover; /* Масштабируем фон */
-}
 
-#home:before {
-	content: '';
-	display: block;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color:rgba(0, 0, 0, .2);
-}
 
-#contacts {
-/*  background-color: #74cfd2;*/
-}
-
-.aquarium {
-  min-height: 500px;
-  min-width: 500px;
-  background-color: #ccc;
-  margin: 0;
-  padding: 0;
-}
-
-#resume {
-
-}
-
-#resume img {
-  width: 500px;
-}
-
-#carousel_portfolio {
-  width: 500px;
-  height: 500px;
-}
