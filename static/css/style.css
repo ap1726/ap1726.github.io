@@ -74,6 +74,19 @@ bottom: 40px;
 50% {bottom: 40px;}
 }
 
+#skills {
+  perspective: 500px;
+}
+
+#skills svg:hover {
+  animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+  50% {
+    transform: rotateY(360deg);
+  }
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
