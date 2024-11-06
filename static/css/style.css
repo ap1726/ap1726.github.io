@@ -77,9 +77,13 @@ bottom: 40px;
 #skills {
   perspective: 500px;
 }
+#skills svg {
+  position: relative;
+  transform-origin: center;
+}
 
-#skills svg:hover {
-  animation: rotate 2s infinite linear;
+#skills .col:hover svg {
+  animation: rotate 2s linear infinite;
 }
 
 .skill {
@@ -87,7 +91,10 @@ bottom: 40px;
   font-weight: 400;
 }
 @keyframes rotate {
-  50% {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
     transform: rotateY(360deg);
   }
 }
