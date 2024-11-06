@@ -82,6 +82,10 @@ bottom: 40px;
   animation: rotate 2s infinite linear;
 }
 
+.skill {
+  font-style: italic;
+  font-weight: 400;
+}
 @keyframes rotate {
   50% {
     transform: rotateY(360deg);
