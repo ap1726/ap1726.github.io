@@ -1,13 +1,11 @@
 
 # ap1726.github.io
 
-- [Резюме](#resume)
-- [Обо мне](#about)
-- [Контакты](#contacts)
+- [Резюме](#Опыт-работы)
+- [Обо мне](#Обо-мне)
+- [Контакты](#Контакты)
 
-## Резюме
-
-### Software engeneer (Fullstack python developer)
+## Software engeneer (Fullstack python developer)
 
 *Инженер программист*  
 **Специализации:** Программист, разработчик  
@@ -137,6 +135,7 @@ RPG игра на *UnrealEngine4* (управление проектом + пр�
 - **Email:** [ap1726@levdev.ru](mailto:ap1726@levdev.ru)
 - **GitHub:** [github.com/ap1726](https://github.com/ap1726)
 
+[Наверх](#ap1726.github.io)
 ---
 
 &copy; Alexei N
