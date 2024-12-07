@@ -2,7 +2,7 @@
 # ap1726.github.io
 
 - [Резюме](#Опыт-работы)
-- [Обо мне](#Обо-мне)
+- [Обо мне](#О-себе)
 - [Контакты](#Контакты)
 
 ## Software engeneer (Fullstack python developer)
