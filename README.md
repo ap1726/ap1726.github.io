@@ -1,10 +1,10 @@
 
-# ap1726.github.io
+# nalexeip.github.io
 
 - [Опыт работы](#Опыт-работы)
 - [Обо мне](#О-себе)
 - [Контакты](#Контактные-данные)
-- [web версия с картинками)](https://ap1726.github.io)
+- [web версия с картинками)](https://nalexeip.github.io)
 
 ## Software engeneer (Fullstack python developer)
 
@@ -132,11 +132,11 @@ RPG игра на *UnrealEngine4* (управление проектом + пр�
 
 ## Контактные данные
 
-- **Telegram:** [@ap1726](https://t.me/ap1726)
-- **Email:** [ap1726@levdev.ru](mailto:ap1726@levdev.ru)
-- **GitHub:** [github.com/ap1726](https://github.com/ap1726)
+- **Telegram:** [@nalexeip](https://t.me/nalexeip)
+- **Email:** [nalexeip@ya.ru](mailto:nalexeip@ya.ru)
+- **GitHub:** [github.com/nalexeip](https://github.com/nalexeip)
 
-[web версия с картинками)](https://ap1726.github.io)
+[web версия с картинками)](https://nalexeip.github.io)
 ---
 
 &copy; Alexei N
