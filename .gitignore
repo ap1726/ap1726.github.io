@@ -1,3 +1,5 @@
 *.code-workspace
 *.sublime-project
 *.sublime-workspace
+.gigaide/
+.idea/
